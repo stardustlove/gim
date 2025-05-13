@@ -399,8 +399,8 @@ if __name__ == '__main__':
         detector = detector.eval().to(device)
     model = model.eval().to(device)
 
-    name0 = 'a1'
-    name1 = 'a2'
+    name0 = 'b1'
+    name1 = 'b2'
     postfix = '.png'
     image_dir = join('assets', 'demo')
     img_path0 = join(image_dir, name0 + postfix)
